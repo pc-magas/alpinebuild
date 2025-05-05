@@ -49,7 +49,7 @@ Directory | Reason
 /home/packager/.abuild | Abuild config anf *private* signing key storage
 /etc/apk/keys/ | Signing Public key storage
 /usr/src/apkbuild | Location where *source code* .tar.gz file and `APKBUILD` files are located
-/home/packager/release | The location where built apk files are placed upon
+/home/packager/release | The location where built apk files are placed upon. Also the `APKBUILD` file is placed upon with the correct checksum.
 
 
 # Key Generation

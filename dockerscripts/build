@@ -32,4 +32,4 @@ echo "Final Build"
 sleep 5
 abuild -r -K -P "/home/$USER/release"
 
-cp /home/$USER/APKFILE /home/$USER/release/
+cp /home/$USER/APKBUILD /home/$USER/release/
