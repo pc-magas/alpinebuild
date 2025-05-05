@@ -14,7 +14,7 @@ chown -R packager:packager /home/packager/*
 
 echo "FIX Permissions on /etc/apk/keys/"
 chown -R root:root /etc/apk/keys/
-chmod 755 /etc/apk/keys/ 
+chmod 755 /etc/apk/keys/
 chmod 644 /etc/apk/keys/*
 
 su packager -c "$*"
